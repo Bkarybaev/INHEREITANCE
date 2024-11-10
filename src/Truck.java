@@ -16,4 +16,9 @@ public class Truck extends Transport{
     public void setStrength(int strength) {
         this.strength = strength;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", strength " + strength;
+    }
 }
