@@ -1,4 +1,19 @@
-package PACKAGE_NAME;
+public class Truck extends Transport{
+    private int strength;
 
-public class Truck {
+    public Truck() {
+    }
+
+    public Truck(String model, int strength, double volume) {
+        super(model, volume);
+        this.strength = strength;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
 }
